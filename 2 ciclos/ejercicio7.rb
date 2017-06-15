@@ -14,9 +14,13 @@
 =end
 
 a = 10
+
 a.times do |i|
-  puts i
-  if i.even?
-    puts 'par'
-  end
+	i += 1
+	puts i
+  	if i.even?
+    		puts 'par'
+  	else
+  		puts 'impar'
+  	end
 end
